@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|PT+Sans:700|Raleway:700|Roboto+Condensed:300,400,700" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+	<title>ADVENTURER</title>
+
+	<!--   Normalize.css & bootstrap.js -->
+	<link rel="stylesheet" href="style/lib/bootstrap.min.css">	
+
+	<!-- Start Load CSS -->
+	<link rel="stylesheet" href="style/head.css"> 
+	<link rel="stylesheet" href="style/main.css">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<!-- Start HEADER -->
+	<header class="header">
+		<!-- HIDE-MENU -->
+		<div class="header__hide-menu hide-menu">
+			<ul class="hide-menu__list">
+				<li class="hide-menu__item"><a href="#" class="hide-menu__item-link">home</a></li>
+				<li class="hide-menu__item"><a href="#" class="hide-menu__item-link">about</a></li>
+				<li class="hide-menu__item"><a href="#" class="hide-menu__item-link">service</a></li>
+				<li class="hide-menu__item"><a href="#" class="hide-menu__item-link">contact</a></li>
+				<li class="hide-menu__item"><a href="#" class="hide-menu__item-link">faq</a></li>
+				<li class="hide-menu__item"><a href="#" class="hide-menu__item-link">support</a></li>
+			</ul>
+		</div> <!-- End HIDE-MENU -->
+
+		<!-- TOP-MENU -->
+		<div class="header__top-block">
+			<div class="b-wrapper">
+				<div class="header__menu">
+					<div class="header__logo">
+						<a href="#" class="header__logo-link">adventurer</a>
+					</div>
+					<ul class="header__list">
+						<li class="header__item header__list_fixed-media-home"><a href="#" class="header__item-link">home</a></li>
+						<li class="header__item"><a href="#" class="header__item-link">about</a></li>
+						<li class="header__item"><a href="#" class="header__item-link">service</a></li>
+						<li class="header__item"><a href="#" class="header__item-link">contact</a></li>
+						<li class="header__item"><a href="#" class="header__item-link">faq</a></li>
+						<li class="header__item l-hed__mg"><a href="#" class="header__item-link">support</a></li>
+						<li class="header__item header__search" id="search"><input type="text" class="header__search-box"></li>
+						<li class="header__item header__item_toggle">
+							<div class="header__toggle-menu toggle-menu">
+								<div class="toggle-menu__toggle"></div>
+							</div>
+						</li>
+						<li class="header__item"><a href="#" class="header__item-link header__item-link_search"><i class="icon-magnifying-glass header__icon-zoom"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div> <!-- End TOP-MENU -->
+
+		<!-- CAROUSEL -->
+		<div id="carousel-id" class="carousel slide header__carousel" data-ride="carousel">
+			<div class="carousel-inner">
+
+				<!-- CAROUSEL ITEM -->
+				<div class="item active">
+					<div class="header__carousel-wrapper">
+						<h1 class="header__carousel-hed">adwenturer</h1>
+						<span class="header__carousel-hed2">muri, a template at the heart of the beaty</span>
+						<a href="#" class="header__carousel-button">see more</a>
+					</div>
+				</div> <!-- End CAROUSEL ITEM -->
+
+				<!-- CAROUSEL ITEM -->
+				<div class="item">
+					<div class="header__carousel-wrapper">
+						<span class="header__carousel-hed3">web developer / creative agency / professional photography</span>
+						<span class="header__carousel-hed4">bigbest one page <span class="header__l-transfer">ever built</span></span>
+						<a href="#" class="header__carousel-button">see more</a>
+					</div>
+				</div> <!-- End CAROUSEL ITEM -->
+
+			</div>
+			<a class="header__carousel-control_left" href="#carousel-id" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+			<a class="header__carousel-control_right" href="#carousel-id" data-slide="next"><i class="fa fa-angle-right"></i></a>
+		</div>  <!-- End CAROUSEL -->
+	</header> 
+	<!-- End HEADER -->
+
+	<!-- Start Who we are -->
+	<section class="who">
+		<div class="b-wrapper">
+
+			<!-- HEADING -->
+			<h2 class="b-heading">Who we are</h2>
+			<p class="b-heading-text">
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+			</p> <!-- End HEADING -->
+
+			<!-- COLLAPSE and DATA -->
+			<div class="who__group">
+
+				<!-- COLLAPSE -->
+				<div class="who__collapse">
+					<div class="panel-group" id="accordion">
+						<!-- FIRST PANEL-COLLAPSE -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title who__collapse-heading who__collapse-heading_active l-collapse">
+
+									<!-- COLLAPSE-ICON -->
+									<div class="who__collapse-icon collapse-icon">
+										<div class="collapse-icon__circle">
+											<i class="collapse-icon__plus collapse-icon__minus"></i>
+										</div>
+									</div> <!-- End COLLAPSE-ICON -->
+
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="who__collapse-heading_text">
+										Lorem ipsum dolor sit
+									</a>
+								</h3>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in">
+								<div class="panel-body who__collapse-body">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend 
+									Ut urna dui, interdum non blandit sed, hendrerit ultricies mi. Aliquam at scelerisque ligula. Curabitur id laoreet velit.
+								</div>
+							</div>
+						</div> <!-- End FIRST PANEL-COLLAPSE -->
+
+						<!-- TWO PANEL-COLLAPSE -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title who__collapse-heading">
+
+									<!-- COLLAPSE-ICON -->
+									<div class="who__collapse-icon collapse-icon">
+										<div class="collapse-icon__circle">
+											<i class="collapse-icon__plus"></i>
+										</div>
+									</div> <!-- End COLLAPSE-ICON -->
+
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="who__collapse-heading_text">
+										Lorem ipsum dolor sit
+									</a>
+								</h3>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse">
+								<div class="panel-body who__collapse-body">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend 
+									Ut urna dui, interdum non blandit sed, hendrerit ultricies mi. Aliquam at scelerisque ligula. Curabitur id laoreet velit.
+								</div>
+							</div>
+						</div> <!-- End TWO PANEL-COLLAPSE -->
+
+						<!-- THREE PANEL-COLLAPSE  -->
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title who__collapse-heading">
+
+									<!-- COLLAPSE-ICON -->
+									<div class="who__collapse-icon collapse-icon">
+										<div class="collapse-icon__circle">
+											<i class="collapse-icon__plus"></i>
+										</div>
+									</div> <!-- End COLLAPSE-ICON -->
+
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="who__collapse-heading_text">
+										Lorem ipsum dolor sit
+									</a>
+								</h3>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body who__collapse-body">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis nulla non elit dignissim suscipit. Duis lorem nulla, eleifend 
+									Ut urna dui, interdum non blandit sed, hendrerit ultricies mi. Aliquam at scelerisque ligula. Curabitur id laoreet velit.
+								</div>
+							</div>
+						</div> <!-- End THREE PANEL-COLLAPSE -->
+					</div>
+				</div> <!-- End COLLAPSE -->
+
+				<!-- DATA -->
+				<div class="who__data data">
+					<h2 class="data__hidden">information <i class="data__icon fa fa-angle-double-down"></i></h2>
+					<div class="data__group">
+						<!-- METER 1-->
+						<div class="data__meter">
+							<span class="data__text">Web Design <span id="meter-number1" class="data__number">0</span>%</span>
+							<div class="data__fill-meter data__fill-meter_one wow"></div>
+						</div> <!-- End METER 1-->
+						<!-- METER 2-->
+						<div class="data__meter">
+							<span class="data__text">Html and Css <span id="meter-number2" class="data__number">0</span>%</span>
+							<div class="data__fill-meter data__fill-meter_two wow"></div>
+						</div> <!-- End METER 2-->
+						<!-- METER 3-->
+						<div class="data__meter">
+							<span class="data__text">Graphic Design <span id="meter-number3" class="data__number">0</span>%</span>
+							<div class="data__fill-meter data__fill-meter_three wow"></div>
+						</div> <!-- End METER 3-->
+						<!-- METER 4-->
+						<div class="data__meter">
+							<span class="data__text">Wordpress <span id="meter-number4" class="data__number">0</span>%</span>
+							<div class="data__fill-meter data__fill-meter_four wow"></div>
+						</div> <!-- End METER 4-->
+						<!-- METER 5-->
+						<div class="data__meter">
+							<span class="data__text">Joomla <span id="meter-number5" class="data__number">0</span>%</span>
+							<div class="data__fill-meter data__fill-meter_five wow"></div>
+						</div> <!-- End METER 5-->
+						<!-- METER 6-->
+						<div class="data__meter">
+							<span class="data__text">Php and MysQI <span id="meter-number6" class="data__number">0</span>%</span>
+							<div class="data__fill-meter data__fill-meter_six wow"></div>
+						</div> <!-- End METER 6-->
+					</div>
+				</div> <!-- End DATA -->
+				
+			</div> <!-- End CPLLAPSE and DATA --> 
+		</div> <!-- End WRAPPER --> 	
+	</section>
+	<!-- End Who we are -->
+
+	<!-- Start Our Service -->
+	<section class="service">
+		<div class="b-wrapper">
+
+			<!-- HEADING -->
+			<h2 class="b-heading_margin">our service</h2>
+			<!-- End HEADING -->
+
+			<!-- SERVICE -->
+			<ul class="service__list">
+				<!-- BLOCK ONE -->
+				<li class="service__block">
+					<i class="icon-cog service__icon"></i>
+					<div class="l-left">
+						<h3 class="service__heading">Free support &amp; updates</h3>
+						<!-- <div class="l-new-stroke"></div> -->
+						<p class="service__text">Lorem ipsum dolor sit amet, conse tetuer adipiscing elit, sed diam nonu my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					</div>
+					<a href="#" class="service__button">see more</a>
+				</li> <!-- End BLOCK ONE -->
+
+				<!-- BLOCK TWO -->
+				<li class="service__block">
+					<i class="icon-pill service__icon"></i>
+					<div class="l-left">
+						<h3 class="service__heading">Fully customizable</h3>
+						<!-- <div class="l-new-stroke"></div> -->
+						<p class="service__text">Lorem ipsum dolor sit amet, conse tetuer adipiscing elit, sed diam nonu my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					</div>
+					<a href="#" class="service__button">see more</a>
+				</li> <!-- End BLOCK TWO -->
+
+				<!-- BLOCK THREE -->
+				<li class="service__block">
+					<i class="icon-plug service__icon"></i>
+					<div class="l-left">
+						<h3 class="service__heading">Free support &amp; updates</h3>
+						<!-- <div class="l-new-stroke"></div> -->
+						<p class="service__text">Lorem ipsum dolor sit amet, conse tetuer adipiscing elit, sed diam nonu my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+					</div>
+					<a href="#" class="service__button">see more</a>
+				</li> <!-- End BLOCK THREE -->
+			</ul> <!-- End SERVICE -->
+
+		</div>
+	</section>
+	<!-- End Our Service -->
+
+	<!-- Start Creative company -->
+	<section class="creative">
+		<!-- BACKGROUND IMAGE AND TEXT -->
+		<div class="creative__bg-image"><span class="creative__bg-text">image</span></div> <!-- End BACKGROUND IMAGE AND TEXT -->
+
+		<div class="b-wrapper">
+			<i class="icon-user creative__icon"></i>
+			<h2 class="b-heading_white creative__heading">join our creative company</h2>
+			<p class="creative__text b-heading-text_white">“ Hello! Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+			tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+			<a href="#" class="creative__button">join with us</a>
+		</div>
+	</section>
+	<!-- End Creative company -->
+
+	<!-- Start We offer -->
+	<section class="offer">
+		<div class="b-wrapper">
+			<h2 class="b-heading_margin">what we offer</h2>
+
+			<ul class="offer__list">
+
+				<!-- BLOCK ONE -->
+				<li class="offer__item">
+					<div class="offer__img">
+						<div class="l-offer__block">
+							<i class="icon-download offer__icon"></i>
+						</div>
+					</div>
+					<h3 class="offer__heading">technocal analysis</h3>
+					<p class="offer__text">
+						Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry.
+					</p>
+				</li> <!-- End BLOCK ONE -->
+
+				<!-- BLOCK TWO -->
+				<li class="offer__item">
+					<div class="offer__img">
+						<div class="l-offer__block">
+							<i class="icon-shop offer__icon l-offer__icon"></i>
+						</div>
+					</div>
+					<h3 class="offer__heading">General contract</h3>
+					<p class="offer__text">
+						Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry.
+					</p>
+				</li> <!-- End BLOCK TWO -->
+
+				<!-- BLOCK THREE -->
+				<li class="offer__item">
+					<div class="offer__img">
+						<div class="l-offer__block">
+							<i class="icon-line-graph offer__icon l-offer__icon_line-graph"></i>
+						</div>
+					</div>
+					<h3 class="offer__heading">Consultation</h3>
+					<p class="offer__text">
+						Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry.
+					</p>
+				</li> <!-- End BLOCK THREE -->
+
+				<!-- BLOCK FOUR -->
+				<li class="offer__item">
+					<div class="offer__img">
+						<div class="l-offer__block">
+							<i class="icon-basket offer__icon"></i>
+						</div>
+					</div>
+					<h3 class="offer__heading">24/7 full support</h3>
+					<p class="offer__text">
+						Lorem Ipsum is simply dummy text of the printing and 
+						typesetting industry.
+					</p>
+				</li> <!-- End BLOCK FOUR -->
+
+			</ul>
+		</div>
+	</section>
+	<!-- End We offer -->
+
+	<!-- Start Customer reviews -->
+	<section class="reviews">
+		<div class="b-wrapper">
+			<h2 class="b-heading_margin">customer reviews</h2>
+		</div>
+
+			<!-- CAROUSEL -->
+			<div id="carousel-id2" class="carousel slide reviews__carousel" data-ride="carousel">
+				<ol class="carousel-indicators reviews__carousel-li reviewe__indicators">
+					<li data-target="#carousel-id2" data-slide-to="0" class="reviews__toggle active"></li>
+					<li data-target="#carousel-id2" data-slide-to="1" class="reviews__toggle "></li>
+					<li data-target="#carousel-id2" data-slide-to="2" class="reviews__toggle "></li>
+				</ol>
+				<div class="carousel-inner reviews__inner">
+
+					<!-- CAROUSEL ITEM -->
+					<div class="item active reviews__item">
+
+						<!-- CAROUSEL BLOCK -->
+						<div class="reviews__block">
+							<img src="img/reviews_1.png" alt="Alt" class="reviews__img"></img>
+							
+							<h3 class="reviews__heading">Ejazul islam</h3>
+							<p class="reviews__hed">Diploma In mati bidda</p>
+							<p class="reviews__text">
+								“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......
+							</p>						
+						</div> <!-- End CAROUSEL BLOCK -->
+
+						<!-- CAROUSEL BLOCK -->
+						<div class="reviews__block">
+							<img src="img/reviews_2.png" alt="Alt" class="reviews__img"></img>
+							
+							<h3 class="reviews__heading">Iqball Hossain</h3>
+							<p class="reviews__hed">Psd at koitor bidda</p>
+							<p class="reviews__text">
+								“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......
+							</p>						
+						</div> <!-- End CAROUSEL BLOCK -->
+
+
+					</div> <!-- End CAROUSEL ITEM -->
+
+					<!-- CAROUSEL ITEM -->
+					<div class="item reviews__item">
+
+						<!-- CAROUSEL BLOCK -->
+						<div class="reviews__block">
+							<img src="img/reviews_1.png" alt="Alt" class="reviews__img"></img>
+							
+							<h3 class="reviews__heading">Ejazul islam</h3>
+							<p class="reviews__hed">Diploma In mati bidda</p>
+							<p class="reviews__text">
+								“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......
+							</p>						
+						</div> <!-- End CAROUSEL BLOCK -->
+
+						<!-- CAROUSEL BLOCK -->
+						<div class="reviews__block">
+							<img src="img/reviews_2.png" alt="Alt" class="reviews__img"></img>
+							
+							<h3 class="reviews__heading">Iqball Hossain</h3>
+							<p class="reviews__hed">Psd at koitor bidda</p>
+							<p class="reviews__text">
+								“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......
+							</p>						
+						</div> <!-- End CAROUSEL BLOCK -->
+
+
+					</div> <!-- End CAROUSEL ITEM -->
+
+					<!-- CAROUSEL ITEM -->
+					<div class="item reviews__item">
+
+						<!-- CAROUSEL BLOCK -->
+						<div class="reviews__block">
+							<img src="img/reviews_1.png" alt="Alt" class="reviews__img"></img>
+							
+							<h3 class="reviews__heading">Ejazul islam</h3>
+							<p class="reviews__hed">Diploma In mati bidda</p>
+							<p class="reviews__text">
+								“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......
+							</p>						
+						</div> <!-- End CAROUSEL BLOCK -->
+
+						<!-- CAROUSEL BLOCK -->
+						<div class="reviews__block">
+							<img src="img/reviews_2.png" alt="Alt" class="reviews__img"></img>
+							
+							<h3 class="reviews__heading">Iqball Hossain</h3>
+							<p class="reviews__hed">Psd at koitor bidda</p>
+							<p class="reviews__text">
+								“ Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+								Lorem Ipsum has been the industry's standard dummy text ever since the 1500s”.......
+							</p>						
+						</div> <!-- End CAROUSEL BLOCK -->
+
+					</div> <!-- End CAROUSEL ITEM -->
+				</div> <!-- End carousel-inner reviews__inner -->
+			</div> <!-- End CAROUSEL -->
+	</section>
+	<!-- End Customer reviews -->
+
+	<!-- Start statistics -->
+	<section class="statistics">
+		<div class="b-wrapper">
+			<h2 class="statistics__hidden">statistics</h2>
+
+			<!-- STAT BLOCK ONE -->
+			<div class="statistics__block">
+				<i class="statistics__icon fa fa-heart"></i>
+				<p class="statistics__num">10K+</p>
+				<h3 class="statistics__text">Love Our Team</h3>
+			</div> <!-- End STAT BLOCK ONE -->
+
+			<!-- STAT BLOCK TWO -->
+			<div class="statistics__block">
+				<i class="statistics__icon fa fa-check"></i>
+				<p class="statistics__num">400+</p>
+				<h3 class="statistics__text">Check Our</h3>
+			</div> <!-- End STAT BLOCK TWO -->
+			<!-- STAT BLOCK FOUR -->
+			<div class="statistics__block">
+				<i class="statistics__icon fa fa-beer"></i>
+				<p class="statistics__num">480</p>
+				<h3 class="statistics__text">Pizzas Ordered</h3>
+			</div> <!-- End STAT BLOCK FOUR -->
+
+			<!-- STAT BLOCK THREE -->
+			<div class="statistics__block l-statistics__block">
+				<i class="statistics__icon icon-repeat"></i>
+				<p class="statistics__num">312</p>
+				<h3 class="statistics__text">repeat client</h3>
+			</div> <!-- End STAT BLOCK THREE -->
+
+
+		</div>
+	</section>
+	<!-- End statistics -->
+
+	<!-- Start Meet Our Team -->
+	<section class="team">
+		<div class="b-wrapper">
+			<h2 class="b-heading">meet our team</h2>
+			<p class="b-heading-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec odio ipsum. Suspendisse cursus malesuada facilisis.Lorem ipsum dolor sit amet, consectetur facilisis.</p>
+			
+			<!-- LIST PHOTO -->
+			<ul class="team__list">
+
+				<!-- PHOTOS ITEM -->
+				<li class="team__item team__item_one">
+					<img src="img/team_1.jpg" alt="Alt" class="team__img">
+
+					<!-- TEAM OVERLAY -->
+					<div class="team__overlay">
+						<i class="team__icon-zoom icon-zoom"></i>
+					</div> <!-- End TEAM OVERLAY -->
+
+					<div class="team__hover">
+						<h3 class="team__name">Mahabubul Islam</h3>
+						<p class="team__deweloper">Html-Coder</p>
+						<ul class="team__sociall">
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-facebook"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-twitter"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-pinterest-p"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-dribbble "></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-behance"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+						</ul>
+					</div> <!-- End TEAM HOVER -->
+				</li> <!-- End PHOTOS ITEM -->
+
+				<!-- PHOTOS ITEM -->
+				<li class="team__item team__item_two">
+					<img src="img/team_2.jpg" alt="Alt" class="team__img">
+
+					<!-- TEAM OVERLAY -->
+					<div class="team__overlay">
+						<i class="team__icon-zoom icon-zoom"></i>
+					</div> <!-- End TEAM OVERLAY -->
+
+					<div class="team__hover">
+						<h3 class="team__name">Mahabubul Islam</h3>
+						<p class="team__deweloper">Html-Coder</p>
+						<ul class="team__sociall">
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-facebook"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-twitter"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-pinterest-p"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-dribbble "></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-behance"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+						</ul>
+					</div> <!-- End TEAM HOVER -->
+				</li> <!-- End PHOTOS ITEM -->
+
+				<!-- PHOTOS ITEM -->
+				<li class="team__item team__item_three">
+					<img src="img/team_3.jpg" alt="Alt" class="team__img">
+
+					<!-- TEAM OVERLAY -->
+					<div class="team__overlay">
+						<i class="team__icon-zoom icon-zoom"></i>
+					</div> <!-- End TEAM OVERLAY -->
+
+					<div class="team__hover">
+						<h3 class="team__name">Mahabubul Islam</h3>
+						<p class="team__deweloper">Html-Coder</p>
+						<ul class="team__sociall">
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-facebook"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-twitter"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-pinterest-p"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-dribbble "></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-behance"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+						</ul>
+					</div> <!-- End TEAM HOVER -->
+				</li> <!-- End PHOTOS ITEM -->
+
+				<!-- PHOTOS ITEM -->
+				<li class="team__item team__item_four">
+					<img src="img/team_4.jpg" alt="Alt" class="team__img">
+
+					<!-- TEAM OVERLAY -->
+					<div class="team__overlay">
+						<i class="team__icon-zoom icon-zoom"></i>
+					</div> <!-- End TEAM OVERLAY -->
+
+					<div class="team__hover">
+						<h3 class="team__name">Mahabubul Islam</h3>
+						<p class="team__deweloper">Html-Coder</p>
+						<ul class="team__sociall">
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-facebook"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-twitter"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-pinterest-p"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-dribbble "></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+							<!-- SOCIAL ICON -->
+							<li class="team__li-soc">
+								<a href="" class="team__link">
+									<i class="team__icon fa fa-behance"></i>
+								</a>
+							</li> <!-- End SOCIAL ICON -->
+
+						</ul>
+					</div> <!-- End TEAM HOVER -->
+				</li> <!-- End PHOTOS ITEM -->
+			</ul> <!-- End LIST PHOTO -->
+		</div> <!-- End b-wrapper -->
+	</section>
+	<!-- End Meet Our Team -->
+
+	<!-- Start Our Awesome Works -->
+	<section class="works">
+		<div class="b-wrapper">
+			<h2 class="b-heading">Our Awesome Works</h2>
+
+			<!-- CAROUSEL -->
+			<div id="carousel-id3" class="carousel slide works__carousel" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<p class="b-heading-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec odio ipsum. Suspendisse
+							cursus malesuada facilisis.Lorem ipsum dolor sit amet, consectetur facilisis.
+						</p>
+					</div>
+					<div class="item">
+						<p class="b-heading-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec odio ipsum. Suspendisse
+							cursus malesuada facilisis.Lorem ipsum dolor sit amet, consectetur facilisis.
+						</p>
+					</div>
+				</div>
+				<a class="left carousel-control works__toggle works__toggle_left" href="#carousel-id3" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+				<a class="right carousel-control works__toggle works__toggle_right" href="#carousel-id3" data-slide="next"><i class="fa fa-angle-right"></i></a>
+			</div> <!-- End CAROUSEL -->
+
+			<!-- MENU -->
+			<ul class="works__menu">
+				<li class="works__item"><a href="#" class="works__link">all</a></li>
+				<li class="works__item"><a href="#" class="works__link">photography</a></li>
+				<li class="works__item"><a href="#" class="works__link">graphic</a></li>
+				<li class="works__item"><a href="#" class="works__link">print</a></li>
+				<li class="works__item"><a href="#" class="works__link">web</a></li>
+			</ul> <!-- End MENU -->
+
+			<!-- WORK-LIST -->
+			<ul class="works__work-list">
+
+				<!-- WORK-ITEM -->
+				<li class="works__work-item work-i">
+					<div class="work-i__wrapp">
+						<img src="img/work_1.jpg" alt="Alt" class="work-i__img">
+						<a href="#" class="work-i__icons work-i__icons_zoom"><i class="work-i__icon icon-zoom"></i></a>
+						<i class="work-i__center"></i>
+						<a href="#" class="work-i__icons work-i__icons_three"><i class="work-i__icon icon-link"></i></a>
+					</div>
+					<h3 class="work-i__name">Our Work Image 01</h3>
+					<p class="work-i__text">Lorem ipsum dolor sit amet, consectetur</p>
+				</li> <!-- End WORK-ITEM -->
+
+				<!-- WORK-ITEM -->
+				<li class="works__work-item work-i">
+					<div class="work-i__wrapp">
+						<img src="img/work_2.jpg" alt="Alt" class="work-i__img">
+						<a href="#" class="work-i__icons work-i__icons_zoom"><i class="work-i__icon icon-zoom"></i></a>
+						<i class="work-i__center"></i>
+						<a href="#" class="work-i__icons work-i__icons_three"><i class="work-i__icon icon-link"></i></a>
+					</div>
+					<h3 class="work-i__name">Our Work Image 02</h3>
+					<p class="work-i__text">Lorem ipsum dolor sit amet, consectetur</p>
+				</li> <!-- End WORK-ITEM -->
+
+				<!-- WORK-ITEM -->
+				<li class="works__work-item work-i">
+					<div class="work-i__wrapp">
+						<img src="img/work_3.jpg" alt="Alt" class="work-i__img">
+						<a href="#" class="work-i__icons work-i__icons_zoom"><i class="work-i__icon icon-zoom"></i></a>
+						<i class="work-i__center"></i>
+						<a href="#" class="work-i__icons work-i__icons_three"><i class="work-i__icon icon-link"></i></a>
+					</div>
+					<h3 class="work-i__name">Our Work Image 03</h3>
+					<p class="work-i__text">Lorem ipsum dolor sit amet, consectetur</p>
+				</li> <!-- End WORK-ITEM -->
+
+				<!-- WORK-ITEM -->
+				<li class="works__work-item work-i">
+					<div class="work-i__wrapp">
+						<img src="img/work_4.jpg" alt="Alt" class="work-i__img">
+						<a href="#" class="work-i__icons work-i__icons_zoom"><i class="work-i__icon icon-zoom"></i></a>
+						<i class="work-i__center"></i>
+						<a href="#" class="work-i__icons work-i__icons_three"><i class="work-i__icon icon-link"></i></a>
+					</div>
+					<h3 class="work-i__name">Our Work Image 04</h3>
+					<p class="work-i__text">Lorem ipsum dolor sit amet, consectetur</p>
+				</li> <!-- End WORK-ITEM -->
+
+				<!-- WORK-ITEM -->
+				<li class="works__work-item work-i">
+					<div class="work-i__wrapp">
+						<img src="img/work_5.jpg" alt="Alt" class="work-i__img">
+						<a href="#" class="work-i__icons work-i__icons_zoom"><i class="work-i__icon icon-zoom"></i></a>
+						<i class="work-i__center"></i>
+						<a href="#" class="work-i__icons work-i__icons_three"><i class="work-i__icon icon-link"></i></a>
+					</div>
+					<h3 class="work-i__name">Our Work Image 05</h3>
+					<p class="work-i__text">Lorem ipsum dolor sit amet, consectetur</p>
+				</li> <!-- End WORK-ITEM -->
+
+				<!-- WORK-ITEM -->
+				<li class="works__work-item work-i">
+					<div class="work-i__wrapp">
+						<img src="img/work_6.jpg" alt="Alt" class="work-i__img">
+						<a href="#" class="work-i__icons work-i__icons_zoom"><i class="work-i__icon icon-zoom"></i></a>
+						<i class="work-i__center"></i>
+						<a href="#" class="work-i__icons work-i__icons_three"><i class="work-i__icon icon-link"></i></a>
+					</div>
+					<h3 class="work-i__name">Our Work Image 06</h3>
+					<p class="work-i__text">Lorem ipsum dolor sit amet, consectetur</p>
+				</li> <!-- End WORK-ITEM -->
+
+			</ul> <!-- End WORK-LIST -->
+		</div> <!-- End b-wrapper -->
+	</section>
+	<!-- End Our Awesome Works -->
+
+	<!-- Start Our Awesome Works 2 -->
+	<section class="awesome ">
+		<div class="b-wrapper">
+			<h2 class="b-heading">Our Awesome Works</h2>
+			
+			<!-- SVG ICON -->
+			<ul class="awesome__list">
+				<li class="awesome__item">
+					<i class="awesome__img awesome__fh"></i>
+					<h3 class="awesome__heading"><a href="#">graphicriver</a></h3>
+				</li>
+				<li class="awesome__item">
+					<i class="awesome__img awesome__md"></i>
+					<h3 class="awesome__heading"><a href="#">themeforest</a></h3>
+				</li>
+				<li class="awesome__item">
+					<i class="awesome__img awesome__sn"></i>
+					<h3 class="awesome__heading"><a href="#">audiojungle</a></h3>
+				</li>
+				<li class="awesome__item">
+					<i class="awesome__img awesome__or"></i>
+					<h3 class="awesome__heading"><a href="#">codecanyon</a></h3>
+				</li>
+				<li class="awesome__item">
+					<i class="awesome__img awesome__ls"></i>
+					<h3 class="awesome__heading"><a href="#">activeden</a></h3>
+				</li>
+			</ul> <!-- End SVG ICON -->
+
+		</div>
+	</section>
+	<!-- End Our Awesome Works 2 -->
+
+	<!-- Start Pre footer -->
+	<section class="pref">
+		<div class="b-wrapper">
+			<p class="pref__text">Subscribe to our newsletter to get every Notify</p>
+			<div class="pref__wrapp">
+				<form class="pref__form">
+					<input type="text" placeholder="Your email" class="pref__email">
+					<button class="pref__submit"><i class="pref__icon fa fa-paper-plane"></i></button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- End Pre footer -->
+
+	<!-- Start footer -->
+	<footer class="footer">
+		<div class="b-wrapper">
+			<div class="footer__list">
+
+				<!-- FOOTER BLOCK -->
+				<div class="footer__block block-1">
+					<h2 class="block-1__heading b-footer_heading">adwenturer</h2>
+					<p class="block-1__text">
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+						The point of using Lorem Ipsum is that it has a more-or-less normal.
+					</p>
+					<ul class="block-1__soc">
+						<li class="block-1__soc-item"><a href="#" class="block-1__link"><i class="block-1__icon fa fa-facebook"></i></a></li>
+						<li class="block-1__soc-item"><a href="#" class="block-1__link"><i class="block-1__icon fa fa-google-plus"></i></a></li>
+						<li class="block-1__soc-item"><a href="#" class="block-1__link"><i class="block-1__icon fa fa-twitter"></i></a></li>
+						<li class="block-1__soc-item"><a href="#" class="block-1__link"><i class="block-1__icon fa fa-vimeo"></i></a></li>
+						<li class="block-1__soc-item"><a href="#" class="block-1__link"><i class="block-1__icon fa fa-linkedin"></i></a></li>
+					</ul>
+				</div> <!-- End FOOTER BLOCK -->
+
+				<!-- FOOTER BLOCK -->
+				<div class="footer__block block-2">
+					<h2 class="block-2__heading b-footer_heading">Some features</h2>
+					<ul class="block-2__list">
+						<li class="block-2__item"><i class="block-2__icon fa fa-check"></i> Lorem ipsum dolor sit amet</li>
+						<li class="block-2__item"><i class="block-2__icon fa fa-check"></i> Aliquam tincidunt cons ectetuer</li>
+						<li class="block-2__item"><i class="block-2__icon fa fa-check"></i> Vestibulum auctor dapibus con</li>
+						<li class="block-2__item"><i class="block-2__icon fa fa-check"></i> Lorem ipsum dolor sit amet auctor dapibus</li>
+					</ul>
+				</div> <!-- End FOOTER BLOCK -->
+
+				<!-- FOOTER BLOCK -->
+				<div class="footer__block block-3">
+					<h2 class="block-3__heading b-footer_heading">Tags</h2>
+					<a href="#" class="block-3__tags">corporate</a>
+					<a href="#" class="block-3__tags">agency</a>
+					<a href="#" class="block-3__tags">portfolio</a>
+					<a href="#" class="block-3__tags">blog</a>
+					<a href="#" class="block-3__tags">elegant</a>
+					<a href="#" class="block-3__tags">professional</a>
+					<a href="#" class="block-3__tags">business</a>
+				</div> <!-- End FOOTER BLOCK -->
+
+				<!-- FOOTER BLOCK -->
+				<div class="footer__block block-4">
+					<h2 class="block-4__heading b-footer_heading">Flicker Posts</h2>
+					<div class="block-4__wrapp">
+						<img src="img/footer_1.jpg" alt="Alt" class="block-4__img">
+						<img src="img/footer_2.jpg" alt="Alt" class="block-4__img">
+						<img src="img/footer_3.jpg" alt="Alt" class="block-4__img">
+						<img src="img/footer_4.jpg" alt="Alt" class="block-4__img">
+						<img src="img/footer_5.jpg" alt="Alt" class="block-4__img">
+						<img src="img/footer_6.jpg" alt="Alt" class="block-4__img">
+						<img src="img/footer_7.jpg" alt="Alt" class="block-4__img">
+						<img src="img/footer_8.jpg" alt="Alt" class="block-4__img">
+					</div>
+				</div> <!-- End FOOTER BLOCK -->
+
+
+			</div> <!-- End LIST -->
+		</div> <!-- End WRAPPER -->
+		
+		<!-- COPY -->
+		<div class="footer__line">
+			<div class="footer__line-wrap b-wrapper">
+
+				<div class="footer__left">
+					&copy; 2015 LORAN KHA. All Rights Reserved. <span>Ehsanul</span>
+				</div>
+
+				<ul class="footer__right">
+					<li class="footer__right-item"><a href="#" class="footer__right-link"><i class="footer__right-icon fa fa-facebook"></i></a></li>
+					<li class="footer__right-item"><a href="#" class="footer__right-link"><i class="footer__right-icon fa fa-tumblr"></i></a></li>
+					<li class="footer__right-item"><a href="#" class="footer__right-link"><i class="footer__right-icon fa fa-vimeo"></i></a></li>
+					<li class="footer__right-item"><a href="#" class="footer__right-link"><i class="footer__right-icon fa fa-pinterest"></i></a></li>
+					<li class="footer__right-item"><a href="#" class="footer__right-link"><i class="footer__right-icon fa fa-linkedin-square"></i></a></li>
+					<li class="footer__right-item"><a href="#" class="footer__right-link"><i class="footer__right-icon fa fa-dribbble"></i></a></li>
+					<li class="footer__right-item"><a href="#" class="footer__right-link"><i class="footer__right-icon e"></i></a></li>
+				</ul>
+
+			</div>
+		</div> <!-- End COPY -->
+	</footer>
+	<!-- End footer -->
+
+
+	<!-- Load Scripts Start -->
+	<!-- <script src="script/common.js"></script> -->
+	<script src="script/lib/jquery.min.js"></script>
+	<script src="script/lib/bootstrap.min.js"></script>
+	<script src="script/lib/wow.min.js"></script>
+	<script src="script/main.js"></script>
+	<!-- Load Scripts End -->
+</body>
+</html>
